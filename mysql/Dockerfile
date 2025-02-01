@@ -2,7 +2,8 @@
 FROM mysql:latest
 
 # Set environment variables for MySQL
-ENV MYSQL_USER=mysql \
+ENV MYSQL_DATABASE=mysql \
+    MYSQL_USER=mysql \
     MYSQL_PASSWORD=password \
     MYSQL_ROOT_PASSWORD=password
 
